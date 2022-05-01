@@ -36,6 +36,7 @@ class Main extends Component {
                 return(
                   <div className="card mb-4" key={key} >
                     <div className="card-header">
+                    {/* eslint-disable-next-line */}
                       <img
                         className='mr-2'
                         width='30'
@@ -46,7 +47,10 @@ class Main extends Component {
                     </div>
                     <ul id="imageList" className="list-group list-group-flush">
                       <li className="list-group-item">
-                        <p className="text-center"><img src={`https://ipfs.infura.io/ipfs/${image.hash}`} style={{ maxWidth: '420px'}}/></p>
+                        <p className="text-center">
+                          {/* eslint-disable-next-line */}
+                          <img src={`https://ipfs.infura.io/ipfs/${image.hash}`} style={{ maxWidth: '420px'}}/>
+                        </p>
                         <p>{image.description}</p>
                       </li>
                       <li key={key} className="list-group-item py-2">

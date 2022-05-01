@@ -1,6 +1,5 @@
 import Decentragram from '../abis/DecGram.json'
 import React, { Component } from 'react';
-import Identicon from 'identicon.js';
 import Navbar from './Navbar'
 import Main from './Main'
 import Web3 from 'web3';
